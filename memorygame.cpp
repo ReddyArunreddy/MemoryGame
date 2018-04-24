@@ -1,7 +1,8 @@
 #include <iostream>
-
+#include "gotoxy.h"
 int main()
 {
-    std::cout << "Hello Wolrd!\n";
+    gotoxy(40,2);
+    std::cout << "WelCome To Memory Game!\n";
     return 0;
 }
